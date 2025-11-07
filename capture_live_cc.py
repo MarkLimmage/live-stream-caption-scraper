@@ -83,13 +83,13 @@ class YouTubeLiveCaptionScraper:
         parsed = urlparse(url)
 
         # Standard watch URL
-        if 'youtube.com' in parsed.netloc:
+        if parsed.netloc in ('www.youtube.com', 'youtube.com', 'm.youtube.com'):
             query = parse_qs(parsed.query)
             if 'v' in query:
                 return query['v'][0]
 
         # Short URL
-        if 'youtu.be' in parsed.netloc:
+        if parsed.netloc == 'youtu.be':
             return parsed.path.lstrip('/')
 
         raise ValueError(f"Could not extract video ID from: {url}")
