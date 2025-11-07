@@ -137,13 +137,39 @@ class YouTubeLiveCaptionScraper:
         for script in soup.find_all('script'):
             script_text = script.string
             if script_text and 'ytInitialPlayerResponse' in script_text:
-                # Extract the JSON object
-                match = re.search(r'var ytInitialPlayerResponse\s*=\s*({.+?});', script_text)
+                # Extract the JSON object by finding balanced braces
+                match = re.search(r'var ytInitialPlayerResponse\s*=\s*({)', script_text)
                 if match:
-                    try:
-                        return json.loads(match.group(1))
-                    except json.JSONDecodeError:
-                        continue
+                    start_pos = match.end(1) - 1  # Position of opening brace
+                    brace_count = 0
+                    in_string = False
+                    escape_next = False
+
+                    for i, char in enumerate(script_text[start_pos:], start=start_pos):
+                        if escape_next:
+                            escape_next = False
+                            continue
+
+                        if char == '\\':
+                            escape_next = True
+                            continue
+
+                        if char == '"' and not escape_next:
+                            in_string = not in_string
+                            continue
+
+                        if not in_string:
+                            if char == '{':
+                                brace_count += 1
+                            elif char == '}':
+                                brace_count -= 1
+                                if brace_count == 0:
+                                    # Found the matching closing brace
+                                    json_str = script_text[start_pos:i+1]
+                                    try:
+                                        return json.loads(json_str)
+                                    except json.JSONDecodeError:
+                                        break
 
         return None
 
@@ -323,8 +349,9 @@ class YouTubeLiveCaptionScraper:
                     captions = self._parse_caption_segment(caption_data)
 
                     for caption in captions:
-                        # Create a unique identifier for this caption
-                        caption_id = f"{caption['timestamp']}:{caption['text']}"
+                        # Create a unique identifier for this caption using hash
+                        # This avoids issues with special characters in the text
+                        caption_id = hash((caption['timestamp'], caption['text']))
 
                         if caption_id not in self.seen_segments:
                             self.seen_segments.add(caption_id)
