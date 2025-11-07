@@ -61,7 +61,8 @@ class YouTubeLiveCaptionScraper:
         service = Service(ChromeDriverManager().install())
         self.driver = webdriver.Chrome(service=service, options=chrome_options)
 
-    def _extract_video_id(self, url: str) -> str:
+    @staticmethod
+    def _extract_video_id(url: str) -> str:
         """
         Extract video ID from a YouTube URL.
 
@@ -382,7 +383,7 @@ Examples:
 
     try:
         # Extract video ID from URL
-        video_id = YouTubeLiveCaptionScraper(args.url, headless=not args.visible)._extract_video_id(args.url)
+        video_id = YouTubeLiveCaptionScraper._extract_video_id(args.url)
 
         # Create scraper instance
         scraper = YouTubeLiveCaptionScraper(video_id, headless=not args.visible)
