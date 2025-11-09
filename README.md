@@ -23,21 +23,32 @@ The system's requirements are specified using the EARS (Easy Approach to Require
 
 ### Dual Caption Extraction Approach
 
-The scraper implements two methods for extracting live captions, with automatic fallback:
+The scraper implements two methods for extracting live captions, selectable via the `--method` CLI parameter:
 
-#### 1. API Method (DASH Manifest)
+#### 1. API Method (DASH Manifest) - Experimental
 - Extracts `ytInitialPlayerResponse` from the YouTube page
 - Locates the DASH manifest URL in `streamingData.dashManifestUrl`
 - Parses the DASH manifest XML to find caption track `BaseURL`
 - Fetches caption segments sequentially using segment numbers
-- **Limitation**: DASH manifest URLs expire (typically after 6 hours), requiring periodic refresh
+- **Limitations**: 
+  - DASH manifest URLs expire (typically after 6 hours)
+  - URL refresh logic may fail with expired manifests
+  - Less reliable for long-running captures
+  - Error recovery incomplete
+- **Status**: Experimental, not recommended for production use
 
-#### 2. DOM Scraping Method (Primary/Fallback)
+#### 2. DOM Scraping Method (Default, Recommended)
 - Polls the caption container elements in the rendered page
 - Extracts visible caption text using Selenium WebDriver
 - Combines multi-line captions with newline separation
 - Implements 5-second deduplication window to prevent duplicate captures
-- **Advantage**: Reliable, works consistently without URL expiration issues
+- **Advantages**: 
+  - Reliable, works consistently without URL expiration issues
+  - Proven for long-running captures (tested 8+ hours)
+  - Robust error handling and recovery
+- **Recommended** for production use and long-running captures
+
+**Method Selection**: Use `--method dom` (default) or `--method api`. The scraper no longer automatically falls back between methods; if one fails, you must manually restart with a different method.
 
 ### Caption Flow
 
@@ -349,7 +360,8 @@ python capture_live_cc.py VIDEO_ID
 
 ```
 usage: capture_live_cc.py [-h] [--poll-interval POLL_INTERVAL] [--visible] 
-                          [--output-dir OUTPUT_DIR] [--save-interval SAVE_INTERVAL] url
+                          [--output-dir OUTPUT_DIR] [--save-interval SAVE_INTERVAL]
+                          [--method {dom,api}] url
 
 Capture live closed captions from YouTube live streams
 
@@ -365,7 +377,144 @@ optional arguments:
                         Directory to save caption files (default: output)
   --save-interval SAVE_INTERVAL
                         Time interval in seconds to collate captions before saving (default: 30.0)
+  --method {dom,api}    Caption extraction method: 'dom' (default) or 'api' (default: dom)
 ```
+
+### Caption Extraction Methods
+
+The scraper supports two distinct methods for extracting captions, selectable via the `--method` parameter:
+
+#### DOM Scraping Method (Default: `--method dom`)
+
+**How it works**:
+- Polls caption container elements in the rendered YouTube page
+- Extracts visible caption text using Selenium WebDriver
+- Implements 5-second deduplication window
+- 2-second polling interval
+
+**Advantages**:
+- ✅ **Reliable**: No URL expiration issues
+- ✅ **Simple**: Always works when captions are visible
+- ✅ **Accurate**: Captures exactly what users see
+- ✅ **Robust**: Continues working indefinitely
+
+**Limitations**:
+- ⚠️ Higher resource usage (requires full Chrome instance)
+- ⚠️ ~200-300 MB memory footprint
+- ⚠️ Coupled to YouTube's UI structure
+
+**Best for**: Long-running captures, production use, reliability
+
+#### API Method (`--method api`)
+
+**How it works**:
+- Extracts DASH manifest URL from `ytInitialPlayerResponse`
+- Parses DASH manifest XML to find caption track `BaseURL`
+- Fetches caption segments sequentially using segment numbers
+- Periodically refreshes DASH manifest to get new URLs
+
+**Advantages**:
+- ✅ Lower resource overhead (no DOM polling)
+- ✅ Direct access to caption data via API
+- ✅ Potentially lower latency
+
+**Current Limitations**:
+- ❌ **URL Expiration**: DASH manifest URLs expire after ~6 hours
+- ❌ **Refresh Logic Incomplete**: Current URL refresh may fail with expired manifests
+- ❌ **Less Tested**: Newer implementation path
+- ❌ **Error Handling**: May not gracefully handle all API failures
+
+**Status**: ⚠️ **Experimental** - Works but has known reliability issues with long-running captures
+
+**Best for**: Short captures (<6 hours), testing, development
+
+#### Selecting a Method
+
+```bash
+# Use DOM scraping (default, most reliable)
+python capture_live_cc.py "https://www.youtube.com/watch?v=VIDEO_ID"
+
+# Explicitly specify DOM method
+python capture_live_cc.py "https://www.youtube.com/watch?v=VIDEO_ID" --method dom
+
+# Use API method (experimental)
+python capture_live_cc.py "https://www.youtube.com/watch?v=VIDEO_ID" --method api
+```
+
+**Note**: The scraper no longer automatically falls back between methods. If you select `--method api` and it fails, you must manually restart with `--method dom`.
+
+### API Method: Known Issues & Remediation Plan
+
+#### Issue 1: DASH Manifest URL Expiration
+
+**Problem**: DASH manifest URLs expire after approximately 6 hours. When the URL expires, the refresh logic attempts to fetch a new manifest, but the original URL is already invalid.
+
+**Symptoms**:
+- Caption capture stops after 6+ hours
+- HTTP 403 errors when fetching manifest
+- "Refreshing caption URL" messages followed by failures
+
+**Current Status**: Partial mitigation implemented (periodic refresh), but edge cases remain
+
+**Remediation Steps**:
+1. **Implement proactive refresh** (before expiration):
+   - Track manifest age from initial extraction
+   - Refresh at 5.5 hours (before 6-hour expiration)
+   - Test with timestamps in manifest response
+
+2. **Improve error recovery**:
+   - Detect 403/410 HTTP errors specifically
+   - Re-extract `ytInitialPlayerResponse` from live page
+   - Parse fresh DASH manifest URL from updated response
+   - Resume from last successful segment number
+
+3. **Add resilience testing**:
+   - Long-running test suite (8+ hours)
+   - Simulate expiration scenarios
+   - Validate segment continuity after refresh
+
+4. **Consider hybrid approach**:
+   - Start with API method for efficiency
+   - Auto-switch to DOM method if API fails repeatedly
+   - Add `--method auto` option for intelligent fallback
+
+**Timeline**: 
+- Phase 1 (proactive refresh): 1-2 days
+- Phase 2 (error recovery): 2-3 days
+- Phase 3 (testing): 2-3 days
+- Phase 4 (hybrid approach): 3-5 days
+
+#### Issue 2: Segment Number Estimation
+
+**Problem**: Initial segment number is estimated from timestamp, which may not be accurate if the stream started at an unusual time or has gaps.
+
+**Symptoms**:
+- Missing initial captions
+- 404 errors at startup
+- Delayed caption capture start
+
+**Remediation Steps**:
+1. Parse segment duration from DASH manifest `<SegmentTemplate duration="...">` attribute
+2. Calculate precise segment number from stream start time
+3. Implement binary search to find current live edge if estimation fails
+4. Fall back to segment 0 and scan forward if all else fails
+
+**Timeline**: 1-2 days
+
+#### Issue 3: Missing Caption Availability Check
+
+**Problem**: API method may fail if stream doesn't provide DASH manifest captions (some streams only have captions in the UI layer).
+
+**Symptoms**:
+- "API method selected but no caption BaseURL found" error
+- Immediate failure at startup
+
+**Remediation Steps**:
+1. Add caption availability pre-check before committing to API method
+2. Provide clearer error messages suggesting DOM fallback
+3. Add `--auto-detect` option to choose best method based on available APIs
+
+**Timeline**: 1 day
 
 ### Output Format
 
@@ -396,29 +545,39 @@ Example: `test-stream-20251107-183030.json`
 
 ### Examples
 
-1. **Capture captions with default settings** (saves to `output/` every 30 seconds):
+1. **Capture captions with default settings** (DOM method, saves to `output/` every 30 seconds):
    ```bash
    python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
    ```
 
-2. **Save files every 60 seconds to a custom directory**:
+2. **Use API method for lower resource usage** (experimental):
+   ```bash
+   python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --method api
+   ```
+
+3. **Save files every 60 seconds to a custom directory**:
    ```bash
    python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --save-interval 60 --output-dir captions
    ```
 
-3. **Faster polling (check every 1 second)**:
+4. **Faster polling (check every 1 second)** with DOM method:
    ```bash
    python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --poll-interval 1.0
    ```
 
-4. **Run with visible browser** (useful for debugging):
+5. **Run with visible browser** (useful for debugging):
    ```bash
    python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --visible
    ```
 
-5. **5-minute capture test**:
+6. **5-minute capture test with API method**:
    ```bash
-   timeout 330 python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+   timeout 330 python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --method api
+   ```
+
+7. **Long-running production capture** (DOM method recommended):
+   ```bash
+   python capture_live_cc.py "https://www.youtube.com/watch?v=dQw4w9WgXcQ" --method dom --save-interval 60
    ```
 
 ### Stopping the Script
