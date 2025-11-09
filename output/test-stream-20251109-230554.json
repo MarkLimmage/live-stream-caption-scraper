@@ -1,0 +1,23 @@
+{
+  "interval_start": "2025-11-09 23:05:24",
+  "interval_end": "2025-11-09 23:05:54",
+  "duration_seconds": 30.342418432235718,
+  "caption_count": 3,
+  "captions": [
+    {
+      "text": "X-TIMESTAMP-MAP=LOCAL:00:00.000,MPEGTS:2594885573999 Kind: captions saying Australia has lost a true pioneer of broadcasting His unmistakable voice became part of",
+      "timestamp": "23:05:25",
+      "segment": 5765000
+    },
+    {
+      "text": "X-TIMESTAMP-MAP=LOCAL:00:00.000,MPEGTS:2594886023999 Kind: captions voice became part of of our national soundtrack He informed and entertained",
+      "timestamp": "23:05:27",
+      "segment": 5765001
+    },
+    {
+      "text": "X-TIMESTAMP-MAP=LOCAL:00:00.000,MPEGTS:2594886473999 Kind: captions millions asked the tough questions and always made space for others others to be hurt",
+      "timestamp": "23:05:32",
+      "segment": 5765003
+    }
+  ]
+}

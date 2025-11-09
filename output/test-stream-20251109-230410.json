@@ -1,0 +1,18 @@
+{
+  "interval_start": "2025-11-09 23:03:39",
+  "interval_end": "2025-11-09 23:04:10",
+  "duration_seconds": 31.202502250671387,
+  "caption_count": 2,
+  "captions": [
+    {
+      "text": "X-TIMESTAMP-MAP=LOCAL:00:00.000,MPEGTS:2594876123999 Kind: captions after on on air comments about a gay couple on a reality TV show. Look we all make",
+      "timestamp": "23:03:40",
+      "segment": 5765000
+    },
+    {
+      "text": "X-TIMESTAMP-MAP=LOCAL:00:00.000,MPEGTS:2594876573999 Kind: captions Look we all make mistakes I I mean you you're looking at one of the great mistake makers of the world. For all the",
+      "timestamp": "23:03:42",
+      "segment": 5765001
+    }
+  ]
+}

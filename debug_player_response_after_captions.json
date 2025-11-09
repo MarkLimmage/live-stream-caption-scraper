@@ -1,0 +1,1143 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "is_viewed_live",
+            "value": "True"
+          },
+          {
+            "key": "ipcc",
+            "value": "0"
+          },
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "visitor_data",
+            "value": "CgtLM1pZazRENTlENCjBh8LIBjIKCgJBVRIEGgAgFQ%3D%3D"
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "yt_ad",
+            "value": "1"
+          },
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20251107.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetPlayer_rid",
+            "value": "0x43d87c068b920cd9"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20251107"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "maxAgeSeconds": 0,
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "kx_fmPxhoPZRDOAQoBs64PEjUy0LsH5HQJftUh5zso3VEszRgkuMsNLBwOcCE59TDtslLKPQ-SS"
+    },
+    "webResponseContextExtensionData": {
+      "hasDecorated": true
+    }
+  },
+  "playabilityStatus": {
+    "status": "OK",
+    "playableInEmbed": true,
+    "liveStreamability": {
+      "liveStreamabilityRenderer": {
+        "videoId": "vOTiJkg1voo",
+        "broadcastId": "7",
+        "pollDelayMs": "15000"
+      }
+    },
+    "miniplayer": {
+      "miniplayerRenderer": {
+        "playbackMode": "PLAYBACK_MODE_ALLOW"
+      }
+    },
+    "contextParams": "Q0FFU0FnZ0M="
+  },
+  "streamingData": {
+    "expiresInSeconds": "21540",
+    "adaptiveFormats": [
+      {
+        "itag": 136,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=136&aitags=133%2C134%2C135%2C136%2C160&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRgIhAMRVPbdMkxNfEvZac31C6sUGDQBCn0BnvRx-PkQMSsj1AiEAp533NihuUeVkrajrEVq5_0YOil-Crqm09iYXheCYPtU%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.4d401f\"",
+        "bitrate": 2684050,
+        "width": 1280,
+        "height": 720,
+        "quality": "hd720",
+        "fps": 30,
+        "qualityLabel": "720p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_720P"
+      },
+      {
+        "itag": 247,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=247&aitags=242%2C243%2C244%2C247%2C278&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fwebm&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRAIgci5a1xKnXfS1pd-Nts1KPCkGpXbhx5o9wFYkbV3cMZICIB55WQ1bx6IKyBBSLTXPsWdQnV_Ti3fE59JX991NMLgh&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 732800,
+        "width": 1280,
+        "height": 720,
+        "quality": "hd720",
+        "fps": 30,
+        "qualityLabel": "720p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_720P"
+      },
+      {
+        "itag": 135,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=135&aitags=133%2C134%2C135%2C136%2C160&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRAIgN9iq8y5_WY1bmKqG5AwragSdyjzO8WeVGtHkAghICL0CIEZ4xAiTXTNtCxqZS_mc2iy9X-G1XaD3m1fksRLXaH1A&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.4d401f\"",
+        "bitrate": 1350025,
+        "width": 854,
+        "height": 480,
+        "quality": "large",
+        "fps": 30,
+        "qualityLabel": "480p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_480P"
+      },
+      {
+        "itag": 244,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=244&aitags=242%2C243%2C244%2C247%2C278&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fwebm&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRQIhAMILf6P0mgOcdbCxzetK00I5QCd6W52De36NAMK3ZGk-AiB04S1Fd5fjHePr5QvCCxnphltM0SHoyBlQlJFZj8-6Vw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 528000,
+        "width": 854,
+        "height": 480,
+        "quality": "large",
+        "fps": 30,
+        "qualityLabel": "480p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_480P"
+      },
+      {
+        "itag": 134,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=134&aitags=133%2C134%2C135%2C136%2C160&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRgIhAMgXjUNRs2TNzMEp3uNfXtSMouvLbB8T7aRd_k7x6vloAiEA0H5qQy8YbImQnWaV8IcJEyCpCkJNhGHL03m018k9gWg%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.4d401e\"",
+        "bitrate": 1008250,
+        "width": 640,
+        "height": 360,
+        "quality": "medium",
+        "fps": 30,
+        "qualityLabel": "360p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "highReplication": true,
+        "qualityOrdinal": "QUALITY_ORDINAL_360P"
+      },
+      {
+        "itag": 243,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=243&aitags=242%2C243%2C244%2C247%2C278&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fwebm&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRQIhAPcffcGHSnaPOvOkfqiINpH8NxO_bXQosEh8kyDcT4TPAiBQtmYKb9rDx4GQrZMhSO0uRYwrx9c8yfxdsZFWX24ctQ%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 236800,
+        "width": 640,
+        "height": 360,
+        "quality": "medium",
+        "fps": 30,
+        "qualityLabel": "360p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_360P"
+      },
+      {
+        "itag": 133,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=133&aitags=133%2C134%2C135%2C136%2C160&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRQIhAO6LTaKMr09r_LbWkDggC9jFOSWB3bZIT4pj8iv81aguAiBTuhVhI2g7swpE4Zk6w2t-eo6W2YnvvARKKxKk4z0fkw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.4d4015\"",
+        "bitrate": 456228,
+        "width": 426,
+        "height": 240,
+        "quality": "small",
+        "fps": 30,
+        "qualityLabel": "240p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_240P"
+      },
+      {
+        "itag": 242,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=242&aitags=242%2C243%2C244%2C247%2C278&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fwebm&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRAIgfo23A4J17pY33btutEKd7JGNW91jqwCBOJ37EWyXAbcCIDGtSXCoxhzB1RiY_UF8AhUBJJ9vaF4EKT8Bp_rGT8yc&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 121000,
+        "width": 426,
+        "height": 240,
+        "quality": "small",
+        "fps": 30,
+        "qualityLabel": "240p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_240P"
+      },
+      {
+        "itag": 160,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=160&aitags=133%2C134%2C135%2C136%2C160&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRQIgfJ2anS3tbvnTxr9c4o-S4FrNtqu7X-EyvJjAHnsauDcCIQCFEGCw-Ys9GEMdZGfXwGaRi6EcVYNtTipLMw1J2_SNUA%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/mp4; codecs=\"avc1.42c00b\"",
+        "bitrate": 212465,
+        "width": 256,
+        "height": 144,
+        "quality": "tiny",
+        "fps": 15,
+        "qualityLabel": "144p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_144P"
+      },
+      {
+        "itag": 278,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=278&aitags=242%2C243%2C244%2C247%2C278&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=video%2Fwebm&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRQIhAKBLuBbsdkEHSq_3uyAJnXjN7eXArb5EiBQfUqD7R3MXAiApB7dnRTENEaGuYjZfNWGxLIJ9Vr5oxQnWn_GsvezEtg%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "video/webm; codecs=\"vp9\"",
+        "bitrate": 111000,
+        "width": 256,
+        "height": 144,
+        "quality": "tiny",
+        "fps": 30,
+        "qualityLabel": "144p",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "qualityOrdinal": "QUALITY_ORDINAL_144P"
+      },
+      {
+        "itag": 140,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=140&aitags=140&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&mime=audio%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRgIhAPv859tG9UaB9Mke9iw6cV6Nhh1R9e0YS-FNc7rsyznVAiEAwSD50ryYFMWYoGd5Km4hC-QTlAt1ioPSPnxLLYwDPyc%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+        "bitrate": 144000,
+        "quality": "tiny",
+        "projectionType": "RECTANGULAR",
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "highReplication": true,
+        "audioQuality": "AUDIO_QUALITY_MEDIUM",
+        "audioSampleRate": "44100",
+        "audioChannels": 2,
+        "qualityOrdinal": "QUALITY_ORDINAL_UNKNOWN"
+      },
+      {
+        "itag": 386,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=386&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&xtags=lang%3Den%3Attkind%3Dasr&mime=text%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cxtags%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRQIhAMkT0mAJFO74yrFr1wNNftuKk6cnhigA0FyNcBuvf8v3AiB0F7WuwceN9TvtLDOVc_Y9k0_t9CM6dK19czl9igiLJQ%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "text/mp4; codecs=\"unknown\"",
+        "quality": "tiny",
+        "xtags": "CgoKBGxhbmcSAmVuCg0KBnR0a2luZBIDYXNy",
+        "projectionType": "RECTANGULAR",
+        "audioTrack": {
+          "displayName": "English",
+          "id": "en.0",
+          "audioIsDefault": false
+        },
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "captionTrack": {
+          "displayName": "English (auto-generated)",
+          "vssId": "a.en.V0RXtqgInPU",
+          "languageCode": "en",
+          "kind": "asr",
+          "id": "asr.en.English (auto-generated)."
+        },
+        "qualityOrdinal": "QUALITY_ORDINAL_UNKNOWN"
+      },
+      {
+        "itag": 387,
+        "url": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&itag=387&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&bui=AdEuB5TsE_DfWnyTeo6Z9KHAU87QbtezxN7iLDleatpm-s4OoHWRmtnAClNBgqR9KFxVV5k0xMhzE0hx&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&vprv=1&live=1&hang=1&noclen=1&svpuc=1&xtags=lang%3Den&mime=text%2Fmp4&ns=wDAPn7PzDCwf-mO1i84lFLoQ&rqh=1&gir=yes&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&sefc=1&n=QgxG1_BX05_Uozr&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cxtags%2Cmime%2Cns%2Crqh%2Cgir&sig=AJfQdSswRQIgBhlnOWyP0_ZY6peNba11qYk92NPoY04KKpYEBTwrmFECIQDzzmhw6_3h9uISYEUG6mhdNRYznQMdA0aGR4v_BEQEjw%3D%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D",
+        "mimeType": "text/mp4; codecs=\"unknown\"",
+        "quality": "tiny",
+        "xtags": "CgoKBGxhbmcSAmVu",
+        "projectionType": "RECTANGULAR",
+        "audioTrack": {
+          "displayName": "English",
+          "id": "en.0",
+          "audioIsDefault": false
+        },
+        "targetDurationSec": 5,
+        "maxDvrDurationSec": 43200,
+        "captionTrack": {
+          "displayName": "English",
+          "vssId": ".en.eEY6OEpapPo",
+          "languageCode": "en",
+          "id": ".en.English."
+        },
+        "qualityOrdinal": "QUALITY_ORDINAL_UNKNOWN"
+      }
+    ],
+    "dashManifestUrl": "https://manifest.googlevideo.com/api/manifest/dash/expire/1762711585/ei/wYMQabHaL-WV1d8P2O_miQc/ip/120.153.210.176/id/vOTiJkg1voo.7/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/as/fmp4_audio_clear%2Cwebm_audio_clear%2Cwebm2_audio_clear%2Cfmp4_sd_hd_clear%2Cwebm2_sd_hd_clear/spc/6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM/vprv/1/rqh/2/pacing/0/keepalive/yes/fexp/51355912%2C51552689%2C51565115%2C51565681%2C51580968/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cas%2Cspc%2Cvprv%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgbFaZSXpU8rzMvaanf9ULuP3TON9acG06tZNhAviffF8CIDaKb5xoNJIok5TCprFOLJiVqTBKuw0rDhzmOt36wrPr",
+    "hlsManifestUrl": "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1762711585/ei/wYMQabHaL-WV1d8P2O_miQc/ip/120.153.210.176/id/vOTiJkg1voo.7/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/bui/AdEuB5QJDFWbM9lwJHeEozs8StrpdjH459cN0ijbp32BOpzsaS0MuoCn5VrG9ncyaRc9n60X7KV2Ahs7/spc/6b0G_ASqYI1AmbDt6-uXIBPSGZG9mE-gH0iTJxSCmt-6dmBDiLfq4r50BWveZFdrH8ls50XUHDQ/vprv/1/go/1/rqh/5/pacing/0/nvgoi/1/ncsapi/1/keepalive/yes/fexp/51355912%2C51552689%2C51565115%2C51565681%2C51580968/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cbui%2Cspc%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRQIgcWKWzUGYi1HocNNouX-viSMScBZVxQxUeMmObPhynmgCIQCKVVxDvbLz0lQN2AVSF8H1PIl2WSGFEPOm7Uo1hFqO1w%3D%3D/file/index.m3u8",
+    "serverAbrStreamingUrl": "https://rr1---sn-uxanug5-coxk.googlevideo.com/videoplayback?expire=1762711585&ei=wYMQabHaL-WV1d8P2O_miQc&ip=120.153.210.176&id=vOTiJkg1voo.7&source=yt_live_broadcast&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&met=1762689985%2C&mh=ax&mm=44%2C29&mn=sn-uxanug5-coxk%2Csn-ntqe6nee&ms=lva%2Crdu&mv=m&mvi=1&pl=18&rms=lva%2Clva&initcwndbps=2433750&spc=6b0G_ASpYI1AmbDt6-uXIBPSGZG8mE-gH0iTJxSCmt-6dmBDiLfq4r50BVHYHFF5HKlsD0VM&live=1&hang=1&noclen=1&svpuc=1&ns=mQ1RteKaIxvGC8OBmbRX47sQ&sabr=1&rqh=1&mt=1762689637&fvip=4&keepalive=yes&fexp=51355912%2C51552689%2C51565115%2C51565681%2C51580968&c=WEB&n=lrPSJT_hpsxqE7I&sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cspc%2Clive%2Chang%2Cnoclen%2Csvpuc%2Cns%2Csabr%2Crqh&sig=AJfQdSswRgIhAJJwe7p7xJEEBrIovLtEUwr2-s4-yf-vjFf-c8GrfOMzAiEAhOCM1mKisJKTSL7ls2VoNkXMaSm1iKKnW-gAIvj13tg%3D&lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRgIhALeOOrpx-wmQCK3hXMZExHNWrY0ngvSNgv_ikEmjQ9vqAiEAwUlNw1EuPm39tbuFmmGggU9JBiEe1am3eHcPQg-XlPg%3D"
+  },
+  "heartbeatParams": {
+    "intervalMilliseconds": "15000",
+    "softFailOnError": true,
+    "heartbeatServerData": "GAIgBw=="
+  },
+  "playbackTracking": {
+    "videostatsPlaybackUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/playback?cl=829020980&docid=vOTiJkg1voo&ei=wYMQabHaL-WV1d8P2O_miQc&fexp=&live=dvr&ns=yt&plid=AAZDKD5z3EzITAwM&el=detailpage&len=0&of=oQ5a_g3Ssm4MfrUD_0hxVg&vm=CAEQARgEOjJBSHFpSlRJcTFwTW9BU2VoY0wweHUwS3o1T19IX0hPWXk2Vmw4WkNXejV0OHRPYU1BQWJTQUZVQTZSVFZha25qTkI2VnVIYXB6Q29JS0xrZXpseG1nVHNvODc1eXNEc2Y0R0FPeFhkclplNjY0bnZVbUhlZHhvSzFUQlU2cDNLWi1CZjREZjA"
+    },
+    "videostatsDelayplayUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/delayplay?cl=829020980&docid=vOTiJkg1voo&ei=wYMQabHaL-WV1d8P2O_miQc&fexp=&live=dvr&ns=yt&plid=AAZDKD5z3EzITAwM&el=detailpage&len=0&of=oQ5a_g3Ssm4MfrUD_0hxVg&vm=CAEQARgEOjJBSHFpSlRJcTFwTW9BU2VoY0wweHUwS3o1T19IX0hPWXk2Vmw4WkNXejV0OHRPYU1BQWJTQUZVQTZSVFZha25qTkI2VnVIYXB6Q29JS0xrZXpseG1nVHNvODc1eXNEc2Y0R0FPeFhkclplNjY0bnZVbUhlZHhvSzFUQlU2cDNLWi1CZjREZjA"
+    },
+    "videostatsWatchtimeUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/watchtime?cl=829020980&docid=vOTiJkg1voo&ei=wYMQabHaL-WV1d8P2O_miQc&fexp=&live=dvr&ns=yt&plid=AAZDKD5z3EzITAwM&el=detailpage&len=0&of=oQ5a_g3Ssm4MfrUD_0hxVg&vm=CAEQARgEOjJBSHFpSlRJcTFwTW9BU2VoY0wweHUwS3o1T19IX0hPWXk2Vmw4WkNXejV0OHRPYU1BQWJTQUZVQTZSVFZha25qTkI2VnVIYXB6Q29JS0xrZXpseG1nVHNvODc1eXNEc2Y0R0FPeFhkclplNjY0bnZVbUhlZHhvSzFUQlU2cDNLWi1CZjREZjA"
+    },
+    "ptrackingUrl": {
+      "baseUrl": "https://www.youtube.com/ptracking?ei=wYMQabHaL-WV1d8P2O_miQc&oid=CSxFQh3C-ZufN3MurzOmhA&plid=AAZDKD5z3EzITAwM&pltype=contentlive&ptchn=VgO39Bk5sMo66-6o6Spn6Q&ptk=youtube_single&video_id=vOTiJkg1voo"
+    },
+    "qoeUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/qoe?cl=829020980&docid=vOTiJkg1voo&ei=wYMQabHaL-WV1d8P2O_miQc&el=detailpage&event=streamingstats&fexp=&latcl=2&live=dvr&ns=yt&plid=AAZDKD5z3EzITAwM"
+    },
+    "atrUrl": {
+      "baseUrl": "https://s.youtube.com/api/stats/atr?c=WEB&docid=vOTiJkg1voo&ei=wYMQabHaL-WV1d8P2O_miQc&len=0&ns=yt&plid=AAZDKD5z3EzITAwM&ver=2&vm=CAEQARgEOjJBSHFpSlRJcTFwTW9BU2VoY0wweHUwS3o1T19IX0hPWXk2Vmw4WkNXejV0OHRPYU1BQWJTQUZVQTZSVFZha25qTkI2VnVIYXB6Q29JS0xrZXpseG1nVHNvODc1eXNEc2Y0R0FPeFhkclplNjY0bnZVbUhlZHhvSzFUQlU2cDNLWi1CZjREZjA",
+      "elapsedMediaTimeSeconds": 5
+    },
+    "videostatsScheduledFlushWalltimeSeconds": [
+      10,
+      20,
+      30
+    ],
+    "videostatsDefaultFlushIntervalSeconds": 40,
+    "youtubeRemarketingUrl": {
+      "baseUrl": "https://www.youtube.com/pagead/viewthroughconversion/962985656/?backend=innertube&cname=1&cver=2_20251107&foc_id=VgO39Bk5sMo66-6o6Spn6Q&label=followon_view&ptype=no_rmkt&random=367187093",
+      "elapsedMediaTimeSeconds": 0
+    }
+  },
+  "videoDetails": {
+    "videoId": "vOTiJkg1voo",
+    "title": "Watch ABC NEWS Australia live | ABC NEWS",
+    "lengthSeconds": "0",
+    "isLive": true,
+    "keywords": [
+      "Australia",
+      "abc",
+      "abc news",
+      "news",
+      "breaking news",
+      "abc streaming",
+      "live news",
+      "news abc",
+      "world news",
+      "streaming live abc news",
+      "streaming abc news"
+    ],
+    "channelId": "UCVgO39Bk5sMo66-6o6Spn6Q",
+    "isOwnerViewing": false,
+    "shortDescription": "Subscribe: http://ab.co/1svxLVE  Read more here: https://www.abc.net.au/news/\nABC NEWS provides around the clock coverage of news events as they break in Australia and abroad. It's news when you want it, from Australia's most trusted news organisation.\n\nFor more from ABC NEWS, click here: https://ab.co/2kxYCZY\nWatch more ABC NEWS content ad-free on iview: https://ab.co/2OB7Mk1\n\nGo deeper on our ABC NEWS In-depth channel: https://ab.co/2lNeBn2\nLike ABC NEWS on Facebook: http://facebook.com/abcnews.au\nFollow ABC NEWS on Instagram: http://instagram.com/abcnews_au\nFollow ABC NEWS on Twitter: http://twitter.com/abcnews\n\nNote: In most cases, our captions are auto-generated.\n\n#abcnewsaustralia  #abcnews",
+    "isCrawlable": true,
+    "isLiveDvrEnabled": true,
+    "thumbnail": {
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/vOTiJkg1voo/hqdefault.jpg?v=66d66096&sqp=COyGwsgG-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLBA85IAnud0mtdLp5iZ9BMqpAw61A",
+          "width": 168,
+          "height": 94
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vOTiJkg1voo/hqdefault.jpg?v=66d66096&sqp=COyGwsgG-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==&rs=AOn4CLCEOeZI4U3zPcvsZGQLzhNW7FMqyg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vOTiJkg1voo/hqdefault.jpg?v=66d66096&sqp=COyGwsgG-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLCwqX5sCOjBJamM_U4GsXSLMsyAww",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vOTiJkg1voo/hqdefault.jpg?v=66d66096&sqp=COyGwsgG-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=&rs=AOn4CLA2SHqGtm6HE1a1QgEKEbTfIhl9wQ",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/vOTiJkg1voo/maxresdefault.jpg?v=66d66096",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "liveChunkReadahead": 3,
+    "allowRatings": true,
+    "viewCount": "89299259",
+    "author": "ABC News (Australia)",
+    "isLowLatencyLiveStream": false,
+    "isPrivate": false,
+    "isUnpluggedCorpus": false,
+    "latencyClass": "MDE_STREAM_OPTIMIZATIONS_RENDERER_LATENCY_NORMAL",
+    "isLiveContent": true
+  },
+  "annotations": [
+    {
+      "playerAnnotationsExpandedRenderer": {
+        "featuredChannel": {
+          "startTimeMs": "0",
+          "endTimeMs": "9223372036854775807",
+          "watermark": {
+            "thumbnails": [
+              {
+                "url": "https://i.ytimg.com/an/VgO39Bk5sMo66-6o6Spn6Q/featured_channel.jpg?v=66c2509e",
+                "width": 40,
+                "height": 40
+              }
+            ]
+          },
+          "trackingParams": "CAYQ8zciEwjxvs7zg-WQAxXlSvUFHdi3OXE=",
+          "navigationEndpoint": {
+            "clickTrackingParams": "CAYQ8zciEwjxvs7zg-WQAxXlSvUFHdi3OXEyAml2ygEEpUhS1w==",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/channel/UCVgO39Bk5sMo66-6o6Spn6Q",
+                "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                "rootVe": 3611,
+                "apiUrl": "/youtubei/v1/browse"
+              }
+            },
+            "browseEndpoint": {
+              "browseId": "UCVgO39Bk5sMo66-6o6Spn6Q"
+            }
+          },
+          "channelName": "ABC News (Australia)",
+          "subscribeButton": {
+            "subscribeButtonRenderer": {
+              "buttonText": {
+                "runs": [
+                  {
+                    "text": "SUBSCRIBE"
+                  }
+                ]
+              },
+              "subscribed": false,
+              "enabled": true,
+              "type": "FREE",
+              "channelId": "UCVgO39Bk5sMo66-6o6Spn6Q",
+              "showPreferences": false,
+              "subscribedButtonText": {
+                "runs": [
+                  {
+                    "text": "SUBSCRIBED"
+                  }
+                ]
+              },
+              "unsubscribedButtonText": {
+                "runs": [
+                  {
+                    "text": "SUBSCRIBE"
+                  }
+                ]
+              },
+              "trackingParams": "CAcQmysiEwjxvs7zg-WQAxXlSvUFHdi3OXEyAml2",
+              "unsubscribeButtonText": {
+                "runs": [
+                  {
+                    "text": "UNSUBSCRIBE"
+                  }
+                ]
+              },
+              "serviceEndpoints": [
+                {
+                  "clickTrackingParams": "CAcQmysiEwjxvs7zg-WQAxXlSvUFHdi3OXEyAml2ygEEpUhS1w==",
+                  "commandMetadata": {
+                    "webCommandMetadata": {
+                      "sendPost": true,
+                      "apiUrl": "/youtubei/v1/subscription/subscribe"
+                    }
+                  },
+                  "subscribeEndpoint": {
+                    "channelIds": [
+                      "UCVgO39Bk5sMo66-6o6Spn6Q"
+                    ],
+                    "params": "EgIIBBgA"
+                  }
+                },
+                {
+                  "clickTrackingParams": "CAcQmysiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+                  "commandMetadata": {
+                    "webCommandMetadata": {
+                      "sendPost": true
+                    }
+                  },
+                  "signalServiceEndpoint": {
+                    "signal": "CLIENT_SIGNAL",
+                    "actions": [
+                      {
+                        "clickTrackingParams": "CAcQmysiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+                        "openPopupAction": {
+                          "popup": {
+                            "confirmDialogRenderer": {
+                              "trackingParams": "CAgQxjgiEwjxvs7zg-WQAxXlSvUFHdi3OXE=",
+                              "dialogMessages": [
+                                {
+                                  "runs": [
+                                    {
+                                      "text": "Unsubscribe from "
+                                    },
+                                    {
+                                      "text": "ABC News (Australia)"
+                                    },
+                                    {
+                                      "text": "?"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "confirmButton": {
+                                "buttonRenderer": {
+                                  "style": "STYLE_BLUE_TEXT",
+                                  "size": "SIZE_DEFAULT",
+                                  "isDisabled": false,
+                                  "text": {
+                                    "runs": [
+                                      {
+                                        "text": "Unsubscribe"
+                                      }
+                                    ]
+                                  },
+                                  "serviceEndpoint": {
+                                    "clickTrackingParams": "CAoQ8FsiEwjxvs7zg-WQAxXlSvUFHdi3OXEyAml2ygEEpUhS1w==",
+                                    "commandMetadata": {
+                                      "webCommandMetadata": {
+                                        "sendPost": true,
+                                        "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+                                      }
+                                    },
+                                    "unsubscribeEndpoint": {
+                                      "channelIds": [
+                                        "UCVgO39Bk5sMo66-6o6Spn6Q"
+                                      ],
+                                      "params": "CgIIBBgA"
+                                    }
+                                  },
+                                  "accessibility": {
+                                    "label": "Unsubscribe"
+                                  },
+                                  "trackingParams": "CAoQ8FsiEwjxvs7zg-WQAxXlSvUFHdi3OXE="
+                                }
+                              },
+                              "cancelButton": {
+                                "buttonRenderer": {
+                                  "style": "STYLE_TEXT",
+                                  "size": "SIZE_DEFAULT",
+                                  "isDisabled": false,
+                                  "text": {
+                                    "runs": [
+                                      {
+                                        "text": "Cancel"
+                                      }
+                                    ]
+                                  },
+                                  "accessibility": {
+                                    "label": "Cancel"
+                                  },
+                                  "trackingParams": "CAkQ8FsiEwjxvs7zg-WQAxXlSvUFHdi3OXE="
+                                }
+                              },
+                              "primaryIsCancel": false
+                            }
+                          },
+                          "popupType": "DIALOG"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "subscribeAccessibility": {
+                "accessibilityData": {
+                  "label": "Subscribe to ABC News (Australia)."
+                }
+              },
+              "unsubscribeAccessibility": {
+                "accessibilityData": {
+                  "label": "Unsubscribe from ABC News (Australia)."
+                }
+              },
+              "signInEndpoint": {
+                "clickTrackingParams": "CAcQmysiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+                "commandMetadata": {
+                  "webCommandMetadata": {
+                    "url": "https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCVgO39Bk5sMo66-6o6Spn6Q%26feature%3Div%26continue_action%3DQUFFLUhqbTNLY1N4SkFyTVJZaDZGdEt4aS1WN1BhQmtUZ3xBQ3Jtc0tsQTNDVVAyb1NuM3pqRkVJSVJOc21FWUpNSF9IQVdYcTNycU54RXBlOTNDbjRURjNMdXNGLVFPVktUZlhfZGhKb1pQODFwWHM1N084VWU0TjRWRUhBNFI1MkJSUWlhOEMyVU5mQ2hLc3QyMjNodzFhRHd0dDlENWd6SlNUa19MSHJ1VjdZLUJxUHd1THFWb2RMNmlnaHFERDU1eW50UENoUW9YMG5MVHZoUHdkVFp6bldMNDAxdXJVWWJhUkRaZFhUWlNSMW4%253D&hl=en"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "allowSwipeDismiss": true,
+        "annotationId": "b888d82-3905-2401-8f45-90e6ba3fcd29"
+      }
+    }
+  ],
+  "playerConfig": {
+    "granularVariableSpeedConfig": {
+      "minimumPlaybackRate": 25,
+      "maximumPlaybackRate": 200
+    },
+    "vssClientConfig": {
+      "vssUsePostRequest": false
+    },
+    "audioConfig": {
+      "enablePerFormatLoudness": true,
+      "loudnessTargetLkfs": -14
+    },
+    "streamSelectionConfig": {
+      "maxBitrate": "19470000"
+    },
+    "livePlayerConfig": {
+      "liveReadaheadSeconds": 12,
+      "isLiveHeadPlayable": true
+    },
+    "mediaCommonConfig": {
+      "dynamicReadaheadConfig": {
+        "maxReadAheadMediaTimeMs": 120000,
+        "minReadAheadMediaTimeMs": 15000,
+        "readAheadGrowthRateMs": 1000
+      },
+      "mediaUstreamerRequestConfig": {
+        "videoPlaybackUstreamerConfig": "CuwICqsFCAAlAACAPy0zM3M_NT0Klz9YAWgBchoKFm1mczJfY21mc193ZWJfdjNfMl8wMDMYAHiPTqABAagBALgCANoCiwEQ0IwBGIDd2wEg0A8ooJwBMJh1cIgngAH0A-ABA5gCDNACAugCBPgCAYADAogDiCeoAwPAAwHIAwGABAHQBAHYBAHgBAD4BAeABX3ABQHIBQHgBdAP6AUB-AXQD5AGAdAGAfAGAYAH0A_ABwGACAGICAGdCM3MTD6gCOgH4AgB6Aj___________8B-gKbAS0AAKBCNQAAqkJlAACAQGjAcKgB0IYDhQKamRk_jQIAAIA_lQL67Ws7tQIAAIA_wALfA-gC6AL9As3MzD2QAwGdAwrXIz2gAwHVAwAAekSYBAHVBAAAIEHoBPAQoAYBtQa9N4Y1vQYzM4NAwAcByAcB5QcAgAlE8AcBgAgBoQgAAAAAAADwv6kIAAAAAAAA8L-wCN8DuAoB-BABggMAkAMAqAMBsAMD0AMB2AMBygQcChMIwKkHEJh1GOgHJQAAAAAoADAAEODUAxjQD9IEDwoICLAJELAJIAEgiCcoAdoEDQoGCPAuEPAuIPAuKAHwBQGYBgGoBoCAAtIGFAj0AxBkGg0IiCcVmpmZPh3NzMw-2AYBuAcBoAgB0ggGCAEQARgBqQkAAAAAAADwv7EJAAAAAAAA8L_QCQHaCSQvYmk2K2JoRGtUTVR5QmZFZnFqUFZib1UwYy9qT0hJZkM3ZErqCwSLBowGgAwBqAyQAeANAYAOAYgOAcgPAdAPAcAQAegQAZARAaARAbIRFENBTVNDaFVQdWJiSkRQY0I5QU096BEB0BIB4BIB-BIBgBMBuBMBwBMB8BMBkRQAAAAAAADwv5kUAAAAAAAA8L-wFAHKFADYFACIp6HKCwEYATIDCIgBMgMI9wEyAwiHATIDCPQBMgMIhgEyAwjzATIDCIUBMgMI8gEyAwigATIDCJYCMgMIjAEyKQiCAxokQ2dvS0JHeGhibWNTQW1WdUNnMEtCblIwYTJsdVpCSURZWE55MhUIgwMaEENnb0tCR3hoYm1jU0FtVnU6IAgCIQAAAAAAGOVAMAA4AEAASQAAAAAAABRAUABYAGABSABSKhoCZW4oADIYVUNWZ08zOUJrNXNNbzY2LTZvNlNwbjZROABAAFgAYAB4AHrWAQoLCgMIhQEQqgMY8AEKCwoDCIYBEIAFGOgCCgsKAwiHARDWBhjgAwoLCgMIiAEQgAoY0AUKBQoDCIsBCgUKAwiMAQoLCgMIoAEQgAIYkAEKCwoDCPIBEKoDGPABCgsKAwjzARCABRjoAgoLCgMI9AEQ1gYY4AMKCwoDCPcBEIAKGNAFCgsKAwiWAhCAAhiQAQorCikIggMaJENnb0tCR3hoYm1jU0FtVnVDZzBLQm5SMGEybHVaQklEWVhOeQoXChUIgwMaEENnb0tCR3hoYm1jU0FtVnWgAQGwAQW6AQMEBTHCAQgBAgMEBQgwXtABARJNAHAshnIwRgIhAOq80goAjEhuSHNwQOY6yfy2DzNKSpujflM1Uo4hUV3xAiEA0Xkhx7V3ncDJge7ZqrSglYeEiOUlGF-eWT0RBfyWAqkaAmVp"
+      },
+      "useServerDrivenAbr": true,
+      "serverPlaybackStartConfig": {
+        "enable": true,
+        "playbackStartPolicy": {
+          "startMinReadaheadPolicy": [
+            {
+              "minReadaheadMs": 1200
+            }
+          ]
+        }
+      },
+      "enableServerDrivenRequestCancellation": true,
+      "platypusUseEnvoyNetFetch": false,
+      "fixLivePlaybackModelDefaultPosition": false
+    },
+    "webPlayerConfig": {
+      "useCobaltTvosDash": true,
+      "webPlayerActionsPorting": {
+        "getSharePanelCommand": {
+          "clickTrackingParams": "CAAQu2kiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/share/get_web_player_share_panel"
+            }
+          },
+          "webPlayerShareEntityServiceEndpoint": {
+            "serializedShareEntity": "Cgt2T1RpSmtnMXZvbw%3D%3D"
+          }
+        },
+        "subscribeCommand": {
+          "clickTrackingParams": "CAAQu2kiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/subscription/subscribe"
+            }
+          },
+          "subscribeEndpoint": {
+            "channelIds": [
+              "UCVgO39Bk5sMo66-6o6Spn6Q"
+            ],
+            "params": "EgIIBxgA"
+          }
+        },
+        "unsubscribeCommand": {
+          "clickTrackingParams": "CAAQu2kiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+            }
+          },
+          "unsubscribeEndpoint": {
+            "channelIds": [
+              "UCVgO39Bk5sMo66-6o6Spn6Q"
+            ],
+            "params": "CgIIBxgA"
+          }
+        },
+        "addToWatchLaterCommand": {
+          "clickTrackingParams": "CAAQu2kiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/browse/edit_playlist"
+            }
+          },
+          "playlistEditEndpoint": {
+            "playlistId": "WL",
+            "actions": [
+              {
+                "addedVideoId": "vOTiJkg1voo",
+                "action": "ACTION_ADD_VIDEO"
+              }
+            ]
+          }
+        },
+        "removeFromWatchLaterCommand": {
+          "clickTrackingParams": "CAAQu2kiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+          "commandMetadata": {
+            "webCommandMetadata": {
+              "sendPost": true,
+              "apiUrl": "/youtubei/v1/browse/edit_playlist"
+            }
+          },
+          "playlistEditEndpoint": {
+            "playlistId": "WL",
+            "actions": [
+              {
+                "action": "ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+                "removedVideoId": "vOTiJkg1voo"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "storyboards": {
+    "playerLiveStoryboardSpecRenderer": {
+      "spec": "https://i.ytimg.com/sb/vOTiJkg1voo/storyboard_live_90_3x3_b7/M$M.jpg?rs=AOn4CLAdq0YYITW7KOMAtucDi9GSWTPR6g#159#90#3#3"
+    }
+  },
+  "microformat": {
+    "playerMicroformatRenderer": {
+      "thumbnail": {
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/vOTiJkg1voo/maxresdefault.jpg?v=66d66096",
+            "width": 1280,
+            "height": 720
+          }
+        ]
+      },
+      "embed": {
+        "iframeUrl": "https://www.youtube.com/embed/vOTiJkg1voo",
+        "width": 480,
+        "height": 360
+      },
+      "title": {
+        "simpleText": "Watch ABC NEWS Australia live | ABC NEWS"
+      },
+      "description": {
+        "simpleText": "Subscribe: http://ab.co/1svxLVE  Read more here: https://www.abc.net.au/news/\nABC NEWS provides around the clock coverage of news events as they break in Australia and abroad. It's news when you want it, from Australia's most trusted news organisation.\n\nFor more from ABC NEWS, click here: https://ab.co/2kxYCZY\nWatch more ABC NEWS content ad-free on iview: https://ab.co/2OB7Mk1\n\nGo deeper on our ABC NEWS In-depth channel: https://ab.co/2lNeBn2\nLike ABC NEWS on Facebook: http://facebook.com/abcnews.au\nFollow ABC NEWS on Instagram: http://instagram.com/abcnews_au\nFollow ABC NEWS on Twitter: http://twitter.com/abcnews\n\nNote: In most cases, our captions are auto-generated.\n\n#abcnewsaustralia  #abcnews"
+      },
+      "lengthSeconds": "0",
+      "ownerProfileUrl": "http://www.youtube.com/@abcnewsaustralia",
+      "externalChannelId": "UCVgO39Bk5sMo66-6o6Spn6Q",
+      "isFamilySafe": true,
+      "availableCountries": [
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AL",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AX",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BL",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BY",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CH",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "EH",
+        "ER",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FK",
+        "FM",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GL",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GR",
+        "GS",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LR",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "MD",
+        "ME",
+        "MF",
+        "MG",
+        "MH",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PM",
+        "PN",
+        "PR",
+        "PS",
+        "PT",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RU",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SH",
+        "SI",
+        "SJ",
+        "SK",
+        "SL",
+        "SM",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VA",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "YE",
+        "YT",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "isUnlisted": false,
+      "hasYpcMetadata": false,
+      "viewCount": "89299259",
+      "category": "News & Politics",
+      "publishDate": "2022-02-19T15:50:36-08:00",
+      "ownerChannelName": "ABC News (Australia)",
+      "liveBroadcastDetails": {
+        "isLiveNow": true,
+        "startTimestamp": "2022-02-20T00:57:03+00:00"
+      },
+      "uploadDate": "2022-02-19T15:50:36-08:00",
+      "isShortsEligible": false,
+      "externalVideoId": "vOTiJkg1voo",
+      "likeCount": "65266",
+      "canonicalUrl": "https://www.youtube.com/watch?v=vOTiJkg1voo"
+    }
+  },
+  "cards": {
+    "cardCollectionRenderer": {
+      "cards": [
+        {
+          "cardRenderer": {
+            "teaser": {
+              "simpleCardTeaserRenderer": {
+                "message": {
+                  "simpleText": "View corrections"
+                },
+                "trackingParams": "CAUQ0DYiEwjxvs7zg-WQAxXlSvUFHdi3OXE=",
+                "prominent": true,
+                "logVisibilityUpdates": true,
+                "onTapCommand": {
+                  "clickTrackingParams": "CAUQ0DYiEwjxvs7zg-WQAxXlSvUFHdi3OXHKAQSlSFLX",
+                  "changeEngagementPanelVisibilityAction": {
+                    "targetId": "engagement-panel-error-corrections",
+                    "visibility": "ENGAGEMENT_PANEL_VISIBILITY_EXPANDED"
+                  }
+                }
+              }
+            },
+            "cueRanges": [
+              {
+                "startCardActiveMs": "0",
+                "endCardActiveMs": "5000",
+                "teaserDurationMs": "6000",
+                "iconAfterTeaserMs": "5000"
+              }
+            ],
+            "trackingParams": "CAQQtZcBGAAiEwjxvs7zg-WQAxXlSvUFHdi3OXE="
+          }
+        }
+      ],
+      "headerText": {
+        "simpleText": "From ABC News (Australia)"
+      },
+      "icon": {
+        "infoCardIconRenderer": {
+          "trackingParams": "CAMQsJcBIhMI8b7O84PlkAMV5Ur1BR3Ytzlx"
+        }
+      },
+      "closeButton": {
+        "infoCardIconRenderer": {
+          "trackingParams": "CAIQsZcBIhMI8b7O84PlkAMV5Ur1BR3Ytzlx"
+        }
+      },
+      "trackingParams": "CAEQwjciEwjxvs7zg-WQAxXlSvUFHdi3OXE=",
+      "allowTeaserDismiss": true,
+      "logIconVisibilityUpdates": true
+    }
+  },
+  "trackingParams": "CAAQu2kiEwjxvs7zg-WQAxXlSvUFHdi3OXE=",
+  "adPlacements": [
+    {
+      "adPlacementRenderer": {
+        "config": {
+          "adPlacementConfig": {
+            "kind": "AD_PLACEMENT_KIND_START",
+            "adTimeOffset": {
+              "offsetStartMilliseconds": "0",
+              "offsetEndMilliseconds": "-1"
+            },
+            "hideCueRangeMarker": true
+          }
+        },
+        "renderer": {
+          "clientForecastingAdRenderer": {}
+        },
+        "adSlotLoggingData": {
+          "serializedSlotAdServingDataEntry": "ChMIyebP84PlkAMV79Q0Bx1aghsuGhJiEERjbjloMGhVWk55Qkxaa1k="
+        }
+      }
+    }
+  ],
+  "adBreakHeartbeatParams": "Q0FBJTNE",
+  "frameworkUpdates": {
+    "entityBatchUpdate": {
+      "mutations": [
+        {
+          "entityKey": "Eg0KC3ZPVGlKa2cxdm9vIPYBKAE%3D",
+          "type": "ENTITY_MUTATION_TYPE_REPLACE",
+          "payload": {
+            "offlineabilityEntity": {
+              "key": "Eg0KC3ZPVGlKa2cxdm9vIPYBKAE%3D",
+              "addToOfflineButtonState": "ADD_TO_OFFLINE_BUTTON_STATE_UNKNOWN"
+            }
+          }
+        }
+      ],
+      "timestamp": {
+        "seconds": "1762689986",
+        "nanos": 6240815
+      }
+    }
+  }
+}

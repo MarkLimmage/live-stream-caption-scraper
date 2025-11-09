@@ -50,3 +50,5 @@ status.log
 *.log
 chromedriver
 geckodriver
+
+venv/
